@@ -9,11 +9,11 @@ const Adventure = () => {
     <div className="section bg-[#22067e] min-h-screen relative overflow-hidden">
       {/* Mobile */}
       <div className=" w-full min-h-screen absolute overflow-hidden z-10 lg:hidden top-0">
-        <h1 className="indie text-4xl uppercase  pl-4 z-10 text-white absolute top-16 left-1/2 -translate-x-1/2 w-full">
+        <h1 className="indie text-4xl uppercase  pl-4 z-10 text-white absolute top-10 left-1/2 -translate-x-1/2 w-full">
           Htut's Adventure...
         </h1>
 
-        <div className="w-full h-full  min-h-screen kalam text-white flex justify-center items-center flex-col z-10">
+        <div className="w-full h-full  min-h-screen kalam text-white flex justify-center items-center flex-col z-10 -mt-5">
           {/* Stacks */}
           <div
             className="h-full w-full  flex justify-center items-center flex-col
@@ -74,8 +74,8 @@ const Adventure = () => {
         {/* Main */}
         <div className=" w-full min-h-screen uppercase text-white kalam overflow-hidden flex flex-col items-center pt-10  relative ">
           <h1 className="text-5xl indie z-[5]">Htut's Adventure...</h1>
-          <div className=" -ml-5 flex justify-center mt-10 text-xl  ">
-            <div className="flex flex-col min-w-[300px] border-r-2 border-white items-center  ">
+          <div className=" -ml-5 flex justify-center mt-10 text-3xl  ">
+            <div className="flex flex-col min-w-[400px] border-r-2 border-white items-center gap-2">
               <h1 className="text-3xl font-semibold underline mb-5">Stacks</h1>
               <a
                 href="https://reactjs.org/"
@@ -129,7 +129,7 @@ const Adventure = () => {
               </a>
             </div>
 
-            <div className="flex flex-col min-w-[300px] border-l-2 border-white items-center">
+            <div className="flex flex-col min-w-[400px] border-l-2 border-white items-center gap-2">
               <h1 className="text-3xl font-semibold underline mb-5">
                 Projects
               </h1>

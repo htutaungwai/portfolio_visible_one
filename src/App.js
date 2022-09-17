@@ -18,7 +18,7 @@ const App = () => {
     <>
       <motion.div
         ref={ref}
-        className="w-2 h-2 bg-red-200 rounded-full absolute z-50"
+        className="w-2 h-2 bg-red-200 rounded-full absolute z-50 hidden md:block"
         animate={{ x, y }}
         transition={{
           type: "spring",

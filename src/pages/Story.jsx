@@ -65,15 +65,15 @@ const Story = () => {
           <h1 className="indie text-5xl uppercase  pl-4 z-10  ">
             Htut's Origin...
           </h1>
-          <div className="max-w-[600px] glassbox2 px-6 pt-6 shadow-2xl shadow-black relative">
-            <p>
+          <div className="max-w-[600px] glassbox2 px-6 pt-2 shadow-2xl shadow-black relative">
+            <p className="text-xl">
               After deciding to drop out of college, I determined myself to
               become a software developer and shifted my career to{" "}
-              <span className="font-bold underline underline-offset-4 text-slate-200 text-lg">
+              <span className="font-bold underline underline-offset-4 text-slate-200 text-2xl">
                 web developement
               </span>{" "}
               completely. So, I decided to search how to build a website on{" "}
-              <span className="font-bold underline underline-offset-4 text-slate-200 text-lg">
+              <span className="font-bold underline underline-offset-4 text-slate-200 text-2xl">
                 google
               </span>
               . The top results were fansicinating to me. For next serveral
@@ -87,15 +87,15 @@ const Story = () => {
             />
           </div>
 
-          <div className="max-w-[500px] glassbox2 ml-44 px-6 pt-4 shadow-2xl shadow-black ">
-            <p>
+          <div className="max-w-[500px] glassbox2 ml-44 px-6 pt-2 shadow-2xl shadow-black ">
+            <p className="text-xl">
               As a{" "}
-              <span className="font-bold underline underline-offset-4 text-slate-200 text-lg">
+              <span className="font-bold underline underline-offset-4 text-slate-200 text-2xl">
                 self-thaught devloper
               </span>{" "}
               , I have faced many problems and obstabcles along my way. I almost
               decided to quit{" "}
-              <span className="font-bold underline underline-offset-4 text-slate-200 text-lg">
+              <span className="font-bold underline underline-offset-4 text-slate-200 text-2xl">
                 twice
               </span>
               . However, I persisted till this day achieved my goal of being a
@@ -137,7 +137,7 @@ const Story = () => {
           }}
           src={Flight}
           alt="spaceship"
-          className="absolute z-[5] w-12 top-1/3 right-20  translate-x-11 translate-y-8"
+          className="absolute z-[5] w-24 top-1/3 right-20  translate-x-11 translate-y-8"
         />
 
         {/* Flight End */}
