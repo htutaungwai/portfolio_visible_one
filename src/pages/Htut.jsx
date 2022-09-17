@@ -47,7 +47,7 @@ const HTUT = () => {
       <div className="min-h-screen  hidden md:block poppins text-white relative overflow-hidden z-0">
         <div className="absolute w-full h-full z-10">
           {/* Header */}
-          <div className="w-full h-16  flex justify-end gap-8 pr-5 p-5 z-10 transition-all ease-in-out duration-700	">
+          <div className="w-full h-16  flex justify-end gap-8 pr-24 p-5 z-10 transition-all ease-in-out duration-700	">
             <a
               href="mailto: htutaungway@gmail.com"
               target="_blank"
@@ -75,11 +75,11 @@ const HTUT = () => {
 
           {/* Hero  */}
           <div className=" w-full h-full flex flex-col items-center pt-20">
-            <div className=" -ml-5">
-              <h2 className="text-md">Hello There 👋 </h2>
-              <h1 className="text-4xl">I'M HTUT AUNG WAI</h1>
+            <div className=" ml-2">
+              <h2 className="text-lg">Hello There 👋 </h2>
+              <h1 className="text-5xl">I'M HTUT AUNG WAI</h1>
             </div>
-            <h2 className="text-xl underline underline-offset-2 mt-10">
+            <h2 className="text-2xl underline underline-offset-2 mt-10">
               A PROFESSIONAL WEB DESIGNER AND
               <br />
               FULL-STACK DEVELOPER
