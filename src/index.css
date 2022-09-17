@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&family=Poppins:wght@300;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.indie {
+  font-family: "Indie Flower";
+}
+
+.kalam {
+  font-family: "Kalam";
+}
+
+.glassbox {
+  background: rgba(129, 126, 126, 0.86);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+}
+
+.glassbox2 {
+  background: rgba(255, 255, 255, 0.37);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+}
+
+/* .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #70dfc5;
+  border-radius: 5px;
+  box-shadow: -1px 0px 1px 1px #70dfc5;
+} */
