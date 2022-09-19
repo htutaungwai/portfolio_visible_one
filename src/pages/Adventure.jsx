@@ -8,34 +8,75 @@ const Adventure = () => {
   return (
     <div className="section bg-[#22067e] min-h-screen relative overflow-hidden">
       {/* Mobile */}
-      <div className=" w-full min-h-screen absolute overflow-hidden z-10 lg:hidden top-0">
-        <h1 className="indie text-4xl uppercase  pl-4 z-10 text-white absolute top-10 left-1/2 -translate-x-1/2 w-full">
-          Htut's Adventure...
-        </h1>
-
-        <div className="w-full h-full  min-h-screen kalam text-white flex justify-center items-center flex-col z-10 -mt-5">
+      <div className=" w-full h-full absolute overflow-hidden z-10 lg:hidden top-0 bg-slate-400">
+        <div className="w-full h-full  min-h-screen kalam text-white flex  items-center flex-col z-10  bg-red-900 justify-center">
+          <h1 className="indie text-4xl uppercase  pl-4 z-10 text-white  w-full mt-10">
+            Htut's Adventure...
+          </h1>
           {/* Stacks */}
           <div
             className="h-full w-full  flex justify-center items-center flex-col
-        kalam  uppercase text-lg  mt-8"
+        kalam  uppercase text-lg"
           >
             <h1 className="text-xl underline font-semibold pb-4 underline-offset-4">
               Stacks
             </h1>
-            <p>React .JS</p>
-            <p>Redux .JS</p>
-            <p>Node .JS</p>
-            <p>Express .JS</p>
-            <p>Mongo DB</p>
-            <p>Graphql</p>
-            <p>Tailwind CSS</p>
-            <p>MUI</p>
+            <a
+              href="https://reactjs.org/"
+              target="_blank"
+              className="hover:text-red-300"
+            >
+              React .JS
+            </a>
+            <a
+              href="https://redux.js.org/"
+              target="_blank"
+              className="hover:text-red-300"
+            >
+              Redux .JS
+            </a>
+            <a
+              href="https://nodejs.org/en/"
+              target="_blank"
+              className="hover:text-red-300"
+            >
+              Node .JS
+            </a>
+
+            <a
+              href="https://expressjs.com/"
+              target="_blank"
+              className="hover:text-red-300"
+            >
+              Express .JS
+            </a>
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              className="hover:text-red-300"
+            >
+              Tailwind CSS
+            </a>
+            <a
+              href="https://mui.com/"
+              target="_blank"
+              className="hover:text-red-300"
+            >
+              MUI CSS
+            </a>
+            <a
+              href="https://www.figma.com"
+              target="_blank"
+              className="hover:text-red-300"
+            >
+              Figma
+            </a>
           </div>
 
           {/* Projects */}
           <div
             className="h-full w-full flex justify-center items-center flex-col
-        kalam uppercase mt-8 text-lg "
+        kalam uppercase  text-lg -mt-28 "
           >
             <h1 className="text-xl underline font-semibold pb-4 underline-offset-4">
               Projects

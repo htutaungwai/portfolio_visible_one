@@ -9,8 +9,8 @@ const HTUT = () => {
   return (
     <div className="section bg-[#22067e] min-h-screen ">
       {/* Mobile and Tablet */}
-      <div className="relative min-h-screen overflow-hidden md:hidden">
-        <div className="w-full h-full  absolute z-10 poppins text-white pt-40 pl-5">
+      <div className="relative min-h-screen overflow-hidden md:hidden ">
+        <div className="w-full h-full  absolute z-10 poppins text-white pt-40 pl-5 top-0">
           <h2 className="text-2xl">Hello There 👋 </h2>
           <h1 className="text-4xl  mt-20">I'M HTUT AUNG WAI</h1>
           <h2 className="text-4xl underline underline-offset-2 mt-10">
