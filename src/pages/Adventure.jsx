@@ -6,9 +6,9 @@ import Buzz from "../images/buzz.png";
 import { motion } from "framer-motion";
 const Adventure = () => {
   return (
-    <div className="section bg-[#22067e] min-h-screen relative overflow-hidden">
+    <div className="section bg-[#22067e] min-h-screen  overflow-hidden max-h-screen">
       {/* Mobile */}
-      <div className=" w-full h-full absolute overflow-hidden z-10 lg:hidden top-0 bg-slate-400">
+      <div className=" w-full h-full absolute overflow-hidden z-10 lg:hidden  bg-slate-400">
         <div className="w-full h-full  min-h-screen kalam text-white flex  items-center flex-col z-10  bg-red-900 justify-center">
           <h1 className="indie text-4xl uppercase  pl-4 z-10 text-white  w-full mt-10">
             Htut's Adventure...
