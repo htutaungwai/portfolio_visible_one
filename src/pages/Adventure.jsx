@@ -6,17 +6,17 @@ import Buzz from "../images/buzz.png";
 import { motion } from "framer-motion";
 const Adventure = () => {
   return (
-    <div className="section bg-[#22067e] min-h-screen  overflow-hidden max-h-screen">
+    <div className="section bg-[#22067e] min-h-screen relative overflow-hidden">
       {/* Mobile */}
-      <div className=" w-full h-full absolute overflow-hidden z-10 lg:hidden  bg-slate-400">
-        <div className="w-full h-full  min-h-screen kalam text-white flex  items-center flex-col z-10  bg-red-900 justify-center">
-          <h1 className="indie text-4xl uppercase  pl-4 z-10 text-white  w-full mt-10">
+      <div className=" w-full h-full absolute overflow-hidden z-10 lg:hidden top-0 ">
+        <div className="w-full h-full  min-h-screen kalam text-white flex  items-center flex-col z-10  bg-slate-900 py-20">
+          <h1 className="indie text-4xl uppercase  pl-4 z-10 text-white  w-full ">
             Htut's Adventure...
           </h1>
           {/* Stacks */}
           <div
             className="h-full w-full  flex justify-center items-center flex-col
-        kalam  uppercase text-lg"
+        kalam  uppercase text-lg  mt-8"
           >
             <h1 className="text-xl underline font-semibold pb-4 underline-offset-4">
               Stacks
@@ -76,7 +76,7 @@ const Adventure = () => {
           {/* Projects */}
           <div
             className="h-full w-full flex justify-center items-center flex-col
-        kalam uppercase  text-lg -mt-28 "
+        kalam uppercase mt-8 text-lg "
           >
             <h1 className="text-xl underline font-semibold pb-4 underline-offset-4">
               Projects
@@ -102,11 +102,6 @@ const Adventure = () => {
 
         <div className="h-3 w-6 rounded-full bg-white z-[7] absolute top-64 left-10"></div>
         <div className="h-3 w-4 rounded-full bg-white z-[7] absolute top-44 left-6"></div>
-
-        {/* <p className="text-white indie absolute bottom-6 font-light text-base left-1/2 -translate-x-1/2">
-          "TO INFINITY AND BEYOND!"
-          <br />~ BUZZ LIGHT YEAR
-        </p> */}
       </div>
 
       {/* Desktop */}
