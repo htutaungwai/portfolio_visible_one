@@ -103,10 +103,10 @@ const Adventure = () => {
         <div className="h-3 w-6 rounded-full bg-white z-[7] absolute top-64 left-10"></div>
         <div className="h-3 w-4 rounded-full bg-white z-[7] absolute top-44 left-6"></div>
 
-        <p className="text-white indie absolute bottom-6 font-light text-base left-1/2 -translate-x-1/2">
+        {/* <p className="text-white indie absolute bottom-6 font-light text-base left-1/2 -translate-x-1/2">
           "TO INFINITY AND BEYOND!"
           <br />~ BUZZ LIGHT YEAR
-        </p>
+        </p> */}
       </div>
 
       {/* Desktop */}
